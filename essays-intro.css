@@ -1,0 +1,32 @@
+body, html {
+  overflow-x: hidden;   /* okay to prevent horizontal scroll */
+  overflow-y: auto;     /* allow vertical scrolling */
+}
+.main-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    overflow: scroll;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 2rem;
+}
+.title-h3{
+    color: #fff;
+    font-size: 4rem;
+}
+.title-h2{
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.4rem;
+}
