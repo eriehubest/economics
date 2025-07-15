@@ -8,8 +8,11 @@
     justify-content: space-around;
     align-items: start;
     background-color: transparent;
-    backdrop-filter: blur(10px);
     z-index:100000000;
+}
+*{
+    margin: 0;
+    padding: 0;
 }
 .side__toggle{
     background-color: rgb(0,0,0,0.2);
@@ -49,7 +52,6 @@
 
 
 .side__nav_cont{
-    backdrop-filter: blur(10px);
     background-color: transparent;
     height: 100vh;
     list-style: none;
@@ -85,6 +87,7 @@
 
 .side__nav.active{
     width: 19%;
+    backdrop-filter: blur(10px);
 }
 
 .highlighted{

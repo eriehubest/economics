@@ -23,6 +23,9 @@ document.querySelectorAll('.main-exam-cont p').forEach(el=>{
 document.querySelectorAll('.main-exam-cont h1').forEach(el=>{
     observer.observe(el)
 })
+document.querySelectorAll('.hidden').forEach(el=>{
+    observer.observe(el)
+})
 
 const toggler = document.querySelector('.side__toggle')
 const side__link = document.querySelectorAll('.side__nav__link')
@@ -43,3 +46,4 @@ toggler.addEventListener('click', function(){
     side_cont.classList.toggle('active')
     highlight.classList.toggle('active')
 })
+

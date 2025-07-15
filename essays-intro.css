@@ -1,8 +1,15 @@
 body, html {
-  overflow-x: hidden;   /* okay to prevent horizontal scroll */
-  overflow-y: auto;     /* allow vertical scrolling */
+    height: 100vh;
+  overflow: hidden;    /* allow vertical scrolling */
+    background: url(./image/essay-page.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
+
 .main-content{
+    margin: 0;
+    padding: 0;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -10,9 +17,11 @@ body, html {
     justify-content: center;
     align-items: center;
     overflow: scroll;
+    background: rgb(0, 0, 0, 0.3);
 }
 
 .title{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
