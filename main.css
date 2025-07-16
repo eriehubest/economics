@@ -1,5 +1,4 @@
 html,body{
-    background-color: #1e1a20;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
 }

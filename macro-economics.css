@@ -113,11 +113,29 @@ body,html{
     text-align: left;
 }
 
-.textc a{
+.textc-1a{
     background: url(image/hyperinflation-zimb.jpg) no-repeat;
     background-position: center;
     background-size: cover;
     height: 90%;
     width: 90%;
     border-radius: 10px;
+}
+
+.textc-2a{
+    background: url(image/inflation-investments.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+
+.essay-1-content .textd p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    text-align: left;
 }
