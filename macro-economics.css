@@ -59,7 +59,7 @@ body,html{
 
 .essay-1 h1{
     flex: 1;
-    margin: 7rem 0 0 0 ;
+    /* margin: 7rem 0 0 0 ; */
     color: #fff;
     font-size: 2rem;
 }
