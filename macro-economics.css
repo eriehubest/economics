@@ -60,7 +60,7 @@ body,html{
 
 .essay-1 h1{
     flex: 1;
-    margin: 6rem 0 0 0 ;
+    margin: 4rem auto  0 auto;
     color: #fff;
     font-size: 2rem;
 }
@@ -140,3 +140,124 @@ body,html{
     padding: 1rem;
     text-align: left;
 }
+
+.essay-2-content{
+    color: #fff;
+    flex: 7;
+    width: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+.essay-2-content .box1{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255,255,255, 0.2);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+}
+
+.essay-2-content .box1 .image{
+    height: 95%;
+    justify-self: center;
+    width: 95%;
+    background: url(image/GettyImages-636251500-53ea44b08ca04fb7bc4f0c633cd3ea5d.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.essay-2-content .box1 .content{
+    margin: 0 auto;
+    height:95%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 0rem;
+}
+
+
+.essay-2-content .box1 .content .div1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.essay-2-content .box1 .content .div1 .div11{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.essay-2-content .box1 .content h3{
+    height: 80%;
+    font-size: 4rem;
+}
+
+.essay-2-content .box1 .content .main-p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.essay-2-content .box2{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(255,255,255,0.2);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.essay-2-content .row2 .textbox{
+    margin: 0 auto;
+    width: 95%;
+    display: flex;
+}
+
+.essay-2-content .box2 .group2{
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.essay-2-content .box2 .group2 p{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.essay-2-content .box2 .group2 a{
+    height: 100%;
+    width: 100%;
+    background: url(image/Evolution-of-Chinese-Nominal-GDP-local-currency-1980-2016-estimated.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.essay-2-content .box3{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255,255,255,0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
